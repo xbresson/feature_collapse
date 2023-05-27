@@ -6,8 +6,12 @@ https://arxiv.org/pdf/2305.16162.pdf
 
 ## Python environment
 
-conda env create -f environment.yml  
+conda create --name pytorch_env python=3.8 pip -y  
 conda activate pytorch_env  
+conda install pytorch pytorch-cuda=11.7 -c pytorch -c nvidia  
+conda install -c conda-forge scikit-learn -y  
+conda install -c conda-forge matplotlib-base -y  
+conda install jupyter ipython -y  
 jupyter notebook
 
 
