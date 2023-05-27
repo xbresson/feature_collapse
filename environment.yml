@@ -10,7 +10,7 @@ dependencies:
   # basic
   - python 
   - pytorch
-  - cudatoolkit=11.3
+  - cudatoolkit=11.7
   - scikit-learn
   - matplotlib-base
   - jupyter
